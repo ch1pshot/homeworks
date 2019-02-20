@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Helvetica Neue, sans-serif;
+	color: #32325f;
+}
+.container {
+	max-width: 1140px;
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 159px;
+}
+.brand {
+	color: #95989a;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.hero {
+	padding-top: 70px;
+	padding-bottom: 190px;
+	background-color: #f4f5f7;
+}
+.social a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-text {
+	width: 50%;
+}
+.subtittle {
+	font-size: 20px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 15px;
+}
+.tittle {
+	font-size: 48px;
+	font-weight: 700;
+	display: block;
+	margin-bottom: 26px;
+}
+.description {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 16px;
+	font-family: sans-serif;
+}
+.price-tag {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	display: block;
+}
+.price {
+	display: block;
+	margin-bottom: 70px;
+	font-size: 48px;
+	font-weight: 400;
+	color: #525f7f;
+}
+.btn {
+	text-decoration: none;
+	box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+	border-radius: 12px;
+	color: #ffffff;
+	font-weight: 700;
+	
+}
+.btn-success {
+	background-color: #2dce89;
+	margin-right: 30px;
+	padding: 20px 44px;
+
+}
+.btn-primary {
+	background-color: #5e72e4;
+	padding: 20px 54px;
+
+}
+
+/*Оформление секций*/
+.section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section-subtittle {
+	font-size: 20px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 16px;
+}
+.section-tittle {
+	display: block;
+	font-size: 48px;
+	font-weight: 700;
+}
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+.block {
+	width: 23%;
+	margin-right: 2%;
+}
+.block-text {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 40px 0;
+	line-height: 1.4;
+}
+.footer {
+	background-color: #32325f;
+	color: #ffffff;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-block {
+	width: 33%;
+}
+.footer-tittle {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.footer a{
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer p {
+	line-height: 1.4;
+}
+/* @font-face {
+ 	font-family: "Helvetica Neue";
+    src: url("../fonts/ofont.ru_Helvetica Neue.ttf")
+ } */
